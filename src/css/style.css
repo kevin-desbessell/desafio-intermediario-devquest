@@ -1,0 +1,125 @@
+body {
+    font-size: 62.5%;
+    background: url(../images/bg-repeat.jpg) repeat-x;
+    background-size: 6.7vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    margin: 0 6rem 0 2rem;
+}
+
+.container .informacoes .titulo {
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    color: #FFFFFF;
+}
+
+.container .informacoes .paragrafo {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.container .formulario {
+    background-color: #FFFFFF;
+    width: 42.5%;
+    height: 80vh;
+    margin: 0 2rem;
+}
+
+.container .formulario form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .formulario form .input-text {
+/*    border: 1px solid #000000; */
+    border-radius: 5px;
+    padding: 25px;
+    margin: 40px 40px 0px;
+}
+
+.container .formulario form textarea {
+/*    border: 1px solid #000000; */
+    border-radius: 5px;
+    padding: 25px;
+    margin: 20px 40px 0px;
+    resize: none;
+}
+
+.container .formulario form .campo-obrigatorio {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+}
+
+.container .formulario form button {
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 40px 0px;
+    background-color: #3CCC87;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.container .formulario form #nome::-webkit-input-placeholder {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:#A8A8A8;
+}
+
+.container .formulario form #email::-webkit-input-placeholder {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:#A8A8A8;
+}
+
+.container .formulario form #telefone::-webkit-input-placeholder {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:#A8A8A8;
+}
+
+.container .formulario form #texto::-webkit-input-placeholder {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:#A8A8A8;
+}
+
+
+.input-text {
+    border: 1px solid #000000;
+}
+
+.input-erro {
+    border: 1px solid red;
+}
+
+.input-sucesso {
+    border: 1px solid green;
+}
+
+.mensagem-erro {
+    font-size: 0.8rem;
+    color: red;
+    margin-top: 1px;
+    margin-left: 40px;
+}
